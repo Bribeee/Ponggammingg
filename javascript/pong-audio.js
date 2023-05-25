@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("onlymp3.to - Advent One-Winged Angel  Super Smash Bros. Ultimate (REUPLOAD)-2wIqK_zw5Vs-256k-1655706940250.mp3");
+export var ambientSound = new soundFile("OWA.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
